@@ -1,0 +1,145 @@
+body{
+  background-color: #FFFCE5;
+}
+html {
+  font-size: 30px;
+}
+p#contact {
+  font-size: 20px;
+}
+p#email {
+  font-size: 20px;
+}
+p#phone {
+  font-size: 20px;
+}
+section#about{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 40px;
+}
+section#preview{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section#work {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+img#profile {
+  /*the vw unit makes a picure have size relative to the screen*/
+  width: 100%;
+}
+img#vtlogo {
+  width: 15vw;
+  height: 15vw;
+}
+img#catan {
+  width: 15vw;
+  height: 15vw;
+}
+img#paper {
+  width: 15vw;
+  height: 15vw;
+}
+img#sample {
+  width: 15vw;
+  height: 15vw;
+}
+/*Creates flexbox menu*/
+ul#site-nav-a{
+  list-style: none;
+  display: flex;
+  padding: .5em;
+}
+ul#site-nav-a > li{
+  /*Sets all elements in a straight line*/
+  margin-top: 0;
+  /*creates border*/
+  border-radius: .2em;
+}
+ul#site-nav-a > li > a{
+  /*Makes lining block level*/
+      display: block;
+      /*add padding in links*/
+      padding: .5em 1em;
+      background-color: #09AAB2;
+      color: white;
+      text-decoration: none;
+}
+ul#site-nav-a > li + li{
+  /*Spaces out links*/
+  margin-left: 1.5em;
+}
+ul#site-nav-b{
+  list-style: none;
+  display: flex;
+  padding: .5em;
+}
+ul#site-nav-b > li{
+  /*Sets all elements in a straight line*/
+  margin-top: 0;
+  /*creates border*/
+  border-radius: .2em;
+}
+ul#site-nav-b > li > a{
+  /*Makes lining block level*/
+      display: block;
+      /*add padding in links*/
+      padding: .5em 1em;
+      background-color: #09AAB2;
+      color: white;
+      text-decoration: none;
+}
+ul#site-nav-b > li + li{
+  /*Spaces out links*/
+  margin-left: 1.5em;
+}
+ul#site-nav-c{
+  list-style: none;
+  display: flex;
+  padding: .5em;
+}
+ul#site-nav-c > li{
+  /*Sets all elements in a straight line*/
+  margin-top: 0;
+  /*creates border*/
+  border-radius: .2em;
+}
+ul#site-nav-c > li > a{
+  /*Makes lining block level*/
+      display: block;
+      /*add padding in links*/
+      padding: .5em 1em;
+      background-color: #09AAB2;
+      color: white;
+      text-decoration: none;
+}
+ul#site-nav-c > li + li{
+  /*Spaces out links*/
+  margin-left: 1.5em;
+}
+ul#site-nav-d{
+  list-style: none;
+  display: flex;
+  padding: .5em;
+}
+ul#site-nav-d > li{
+  /*Sets all elements in a straight line*/
+  margin-top: 0;
+  /*creates border*/
+  border-radius: .2em;
+}
+ul#site-nav-d > li > a{
+  /*Makes lining block level*/
+      display: block;
+      /*add padding in links*/
+      padding: .5em 1em;
+      background-color: #09AAB2;
+      color: white;
+      text-decoration: none;
+}
+ul#site-nav-d > li + li{
+  /*Spaces out links*/
+  margin-left: 1.5em;
+}

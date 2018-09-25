@@ -37,14 +37,17 @@ img#vtlogo {
 img#catan {
   width: 15vw;
   height: 15vw;
+  border-radius: 80px;
 }
 img#paper {
   width: 15vw;
   height: 15vw;
+  border-radius: 80px;
 }
 img#sample {
   width: 15vw;
   height: 15vw;
+  border-radius: 80px;
 }
 /*Creates flexbox menu*/
 ul#site-nav-a{

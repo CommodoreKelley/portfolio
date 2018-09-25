@@ -29,6 +29,8 @@ section#work {
 img#profile {
   /*the vw unit makes a picure have size relative to the screen*/
   width: 100%;
+  /*the border-radius function makes icons circles*/
+  border-radius: 200px;
 }
 img#vtlogo {
   width: 15vw;
